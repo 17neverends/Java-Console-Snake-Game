@@ -174,15 +174,10 @@ public class SnakeGame {
             while (true) {
                 System.out.println("\nСчёт:" + score);
                 System.out.println("""
-
                         W - вверх
-
                         A - влево
-
                         S - вниз
-
                         D - вправо
-
                         Выбери действие (W/A/S/D):\s""");
                 char direction = scanner.next().charAt(0);
                 snakeGame.move(direction);
